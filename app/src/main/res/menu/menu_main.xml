@@ -1,0 +1,22 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.hmkcode.mongoz.MainActivity" >
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/navigation_item_1"
+            android:icon="@drawable/icon_user"
+            android:title="Mon Profile"/>
+        <item
+            android:id="@+id/navigation_item_2"
+            android:icon="@drawable/icon_heart_menu"
+            android:title="Mes favoris"/>
+
+        <item
+            android:id="@+id/navigation_item_3"
+            android:icon="@drawable/icon_quit"
+            android:title="Quitter"/>
+    </group>
+
+</menu>
